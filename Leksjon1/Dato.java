@@ -70,7 +70,7 @@ public class Dato {
     public boolean erLik(Dato d2) {
         return (this.år == d2.år && 
         this.mnd == d2.mnd &&
-        this.år == d2.år);
+        this.dag == d2.dag);
     }
     
     public boolean erFør(Dato d2) {
